@@ -1,64 +1,35 @@
 {
-  "features": {
-    "inline_completion_provider": "none",
-    "copilot": false
-  },
   "theme": "AeTheme Dark",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "ui_font_size": 15,
+  "base_keymap": "SublimeText",
+  "features": { "inline_completion_provider": "none", "copilot": false },
   "buffer_font_family": "JetBrains Mono",
+  "buffer_font_fallbacks": ["Zed Plex Mono"],
   "buffer_font_size": 15,
   "buffer_font_weight": 200,
-  "projects_online_by_default": false,
-  "show_call_status_icon": false,
-  "terminal": {
-    "font_size": 15
-  },
-  "show_wrap_guides": false,
-  "chat_panel": {
-    "button": false
-  },
-  "assistant": {
-    "version": "2",
-    "button": false
-  },
-  "collaboration_panel": {
-    "button": false
-  },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "indent_guides": {
-    "enabled": false
-  },
-  "gutter": {
-    "folds": false,
-    "line_numbers": false
-  },
+  "ui_font_size": 15,
   "cursor_blink": false,
-  "scrollbar": {
-    "show": "never"
-  },
-  "current_line_highlight": "all",
-  "enable_language_server": true,
-  "outline_panel": {
-    "button": false
-  },
+  "show_wrap_guides": false,
+  "toolbar": { "breadcrumbs": false, "quick_actions": false },
+  "scrollbar": { "show": "never" },
+  "gutter": { "folds": false, "line_numbers": false },
+  "indent_guides": { "enabled": false },
   "project_panel": { "indent_size": 14 },
-  "git": {
-    "inline_blame": { "enabled": false }
-  },
-  "preferred_line_length": 100,
+  "outline_panel": { "button": false },
+  "collaboration_panel": { "button": false },
+  "chat_panel": { "button": false },
+  "assistant": { "version": "2", "button": false },
+  "show_call_status_icon": false,
   "soft_wrap": "editor_width",
+  "preferred_line_length": 100,
+  "tab_size": 2,
+  "telemetry": { "diagnostics": false, "metrics": false },
+  "git": { "inline_blame": { "enabled": false } },
+  "terminal": { "font_size": 15 },
   "file_types": {
     "C": ["c", "keymap"]
   },
-  "tab_size": 2,
   "languages": {
     "Python": { "tab_size": 4 }
-  }
+  },
+  "projects_online_by_default": false
 }
