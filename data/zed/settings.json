@@ -33,5 +33,6 @@
   "collaboration_panel": { "button": false },
   "agent": { "button": false },
   "show_call_status_icon": false,
-  "notification_panel": { "button": false }
+  "notification_panel": { "button": false },
+  "restore_on_startup": "last_workspace"
 }
