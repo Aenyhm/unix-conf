@@ -3,8 +3,8 @@
   "base_keymap": "SublimeText",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": ["Zed Plex Mono"],
-  "buffer_font_size": 15,
-  "buffer_font_weight": 200,
+  "buffer_font_size": 14,
+  "buffer_font_weight": 100,
   "cursor_blink": false,
   "scrollbar": { "show": "never" },
   "toolbar": { "breadcrumbs": false, "quick_actions": false },
@@ -16,7 +16,7 @@
   "git": { "inline_blame": { "enabled": false } },
   "indent_guides": { "enabled": false },
   "languages": {
-    "C": { "enable_language_server": false },
+    //"C": { "enable_language_server": false },
     "Python": { "enable_language_server": false, "tab_size": 4 }
   },
   "preferred_line_length": 100,
@@ -34,5 +34,12 @@
   "agent": { "button": false },
   "show_call_status_icon": false,
   "notification_panel": { "button": false },
-  "restore_on_startup": "last_workspace"
+  "restore_on_startup": "last_workspace",
+  "debugger": {
+    "log_dap_communications": true
+  },
+  "diagnostics_max_severity": "off",
+  "project_panel": {
+    "show_diagnostics": "off",
+  }
 }
