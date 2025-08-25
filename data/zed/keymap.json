@@ -1,7 +1,7 @@
 [
   {
     "bindings": {
-      "escape": "workspace::CloseAllDocks"
+      "escape": "workspace::ToggleBottomDock"
     }
   },
   {
