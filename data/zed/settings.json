@@ -1,4 +1,7 @@
 {
+  "features": {
+    "edit_prediction_provider": "none"
+  },
   "auto_update": false,
   "base_keymap": "SublimeText",
   "buffer_font_family": "JetBrains Mono",
@@ -16,7 +19,6 @@
   "git": { "inline_blame": { "enabled": false } },
   "indent_guides": { "enabled": false },
   "languages": {
-    //"C": { "enable_language_server": false },
     "Python": { "enable_language_server": false, "tab_size": 4 }
   },
   "preferred_line_length": 100,
@@ -37,9 +39,5 @@
   "restore_on_startup": "last_workspace",
   "debugger": {
     "log_dap_communications": true
-  },
-  "diagnostics_max_severity": "off",
-  "project_panel": {
-    "show_diagnostics": "off",
   }
 }
