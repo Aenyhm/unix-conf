@@ -1,0 +1,69 @@
+// Inspired by Gruvbox & Gruvbox Material
+{
+    "variables":
+    {
+        "black"  : "#111111",
+        "grey"   : "#928374",
+        "white"  : "#eee0b7",
+        "green"  : "#a9b665",
+        "yellow" : "#dbb95e",
+        "red"    : "#ea6962",
+        "purple" : "#ce9fab",
+        "blue"   : "#7daea3",
+
+        "green_diff"  : "#333e34",
+        "yellow_diff" : "#473c29",
+        "red_diff"    : "#442e2d",
+    },
+    "globals":
+    {
+        "background": "var(black)",
+        "foreground": "var(white)",
+        "invisibles": "#404040",
+        "caret": "var(yellow)",
+        "line_highlight": "#181818",
+        "gutter_foreground": "#555",
+        "gutter_foreground_highlight": "var(yellow)",
+        "line_diff_added": "var(green_diff)",
+        "line_diff_modified": "var(yellow_diff)",
+        "line_diff_deleted": "var(red_diff)",
+        "selection": "#2a2a2a",
+    },
+    "rules":
+    [
+        {
+            "scope": "comment",
+            "foreground": "var(grey)",
+            "font_style": "italic",
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(purple)",
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(yellow)",
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "string",
+            "foreground": "var(green)",
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(red)",
+        },
+        {
+            "scope": "storage",
+            "foreground": "var(blue)",
+        },
+    ]
+}

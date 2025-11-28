@@ -1,0 +1,19 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "extends": "Material-Theme-Darker.sublime-theme",
+    "rules":
+    [
+        {
+            "class": "text_area_control",
+            "parents": [{"class": "panel_control output_panel"}],
+            "background_modifier": "lightness(- 3%)"
+        },
+
+        {
+            "class": "label_control",
+            "parents": [{"class": "status_bar"}],
+            "color": [140, 140, 140, 255],
+            "font.bold": false
+        },
+    ]
+}
